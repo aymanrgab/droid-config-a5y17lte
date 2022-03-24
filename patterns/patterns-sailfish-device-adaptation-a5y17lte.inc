@@ -13,6 +13,7 @@ Requires: droid-config-a5y17lte-preinit-plugin
 Requires: droid-config-a5y17lte-flashing
 Requires: droid-config-a5y17lte-bluez5
 Requires: droid-hal-version-a5y17lte
+Requires: droid-hal-a5y17lte-detritus
 
 # Hybris packages
 Requires: libhybris-libEGL
