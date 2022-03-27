@@ -15,7 +15,7 @@ Requires: patterns-sailfish-device-tools
 Requires: sailfish-content-graphics-z%{icon_res}
 
 # For multi-SIM devices
-#Requires: jolla-settings-networking-multisim
+Requires: jolla-settings-networking-multisim
 
 # For devices which support NFC
 #Requires: jolla-settings-system-nfc
@@ -35,7 +35,7 @@ Requires: geoclue-provider-mlsdb
 
 # Devices with 2G or more memory should also include this booster
 # to improve camera startup times and the like
-#Requires: mapplauncherd-booster-silica-qt5-media
+Requires: mapplauncherd-booster-silica-qt5-media
 
 %description -n patterns-sailfish-device-configuration-a5y17lte
 Pattern with packages for a5y17lte configurations

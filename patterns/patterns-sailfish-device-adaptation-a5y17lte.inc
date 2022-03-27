@@ -20,6 +20,16 @@ Requires: libhybris-libEGL
 Requires: libhybris-libGLESv2
 Requires: libhybris-libwayland-egl
 
+# Telephony
+Requires: ofono-ril-binder-plugin
+Requires: dummy_netd
+
+# Bluetooth
+Requires: bluebinder
+
+# enable fingerprint reader
+Requires: sailfish-fpd-community
+
 # Sensors
 Requires: hybris-libsensorfw-qt5
 
@@ -31,12 +41,13 @@ Requires: libngf-qt5-qtfeedback
 Requires: qt5-plugin-generic-evdev
 
 Requires: pulseaudio-modules-droid
+Requires: pulseaudio-modules-droid-jb2q
 Requires: pulseaudio-modules-droid-hidl
 
 # The -dummy-af is needed for newer devices that run the main
 # audiosystem-passthrough in qti mode (e.g. >=Android 9 Qualcomm),
 # to fix non-responding Camera app and/or voice during a phone call:
-#Requires: audiosystem-passthrough-dummy-af
+Requires: audiosystem-passthrough-dummy-af
 
 # for audio recording to work:
 Requires: qt5-qtmultimedia-plugin-mediaservice-gstmediacapture
@@ -48,6 +59,7 @@ Requires: qtscenegraph-adaptation
 
 # For hybris devices with droidmedia, see HADK pdf for more information
 Requires: gstreamer1.0-droid
+Requires: gstreamer1.0-droid-tools
 Requires: gmp-droid
 
 # This is needed for notification LEDs
