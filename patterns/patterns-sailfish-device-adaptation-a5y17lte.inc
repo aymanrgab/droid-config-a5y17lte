@@ -29,6 +29,7 @@ Requires: bluebinder
 
 # enable fingerprint reader
 Requires: sailfish-fpd-community
+Requires: sailfish-devicelock-fpd
 
 # Sensors
 Requires: hybris-libsensorfw-qt5
