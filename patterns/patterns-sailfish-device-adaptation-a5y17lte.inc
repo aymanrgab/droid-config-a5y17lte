@@ -13,7 +13,6 @@ Requires: droid-config-a5y17lte-preinit-plugin
 Requires: droid-config-a5y17lte-flashing
 Requires: droid-config-a5y17lte-bluez5
 Requires: droid-hal-version-a5y17lte
-Requires: droid-hal-a5y17lte-detritus
 
 # Hybris packages
 Requires: libhybris-libEGL
@@ -28,8 +27,8 @@ Requires: dummy_netd
 Requires: bluebinder
 
 # enable fingerprint reader
-Requires: sailfish-fpd-community
-Requires: sailfish-devicelock-fpd
+#Requires: sailfish-fpd-community
+#Requires: sailfish-devicelock-fpd
 
 # Sensors
 Requires: hybris-libsensorfw-qt5
@@ -42,7 +41,7 @@ Requires: libngf-qt5-qtfeedback
 Requires: qt5-plugin-generic-evdev
 
 Requires: pulseaudio-modules-droid
-Requires: pulseaudio-modules-droid-jb2q
+#Requires: pulseaudio-modules-droid-jb2q
 Requires: pulseaudio-modules-droid-hidl
 
 # The -dummy-af is needed for newer devices that run the main
@@ -60,7 +59,7 @@ Requires: qtscenegraph-adaptation
 
 # For hybris devices with droidmedia, see HADK pdf for more information
 Requires: gstreamer1.0-droid
-Requires: gstreamer1.0-droid-tools
+#Requires: gstreamer1.0-droid-tools
 Requires: gmp-droid
 
 # This is needed for notification LEDs
@@ -84,6 +83,9 @@ Requires: geoclue-provider-hybris
 # For FM radio on some QCOM devices
 #Requires: qt5-qtmultimedia-plugin-mediaservice-irisradio
 #Requires: jolla-mediaplayer-radio
+
+# Splash screen
+Requires: yamuisplash
 
 # NFC support
 # 1. binder plugin requires Android 8 or a newer base
