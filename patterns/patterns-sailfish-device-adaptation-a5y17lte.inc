@@ -40,7 +40,7 @@ Requires: libngf-qt5-qtfeedback
 # Needed for /dev/touchscreen symlink
 Requires: qt5-plugin-generic-evdev
 
-#Requires: pulseaudio-modules-droid
+Requires: pulseaudio-modules-droid
 Requires: pulseaudio-modules-droid-jb2q
 Requires: pulseaudio-modules-droid-hidl
 
