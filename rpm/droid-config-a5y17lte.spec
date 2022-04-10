@@ -6,7 +6,7 @@
 
 %define vendor_pretty SAMSUNG
 %define device_pretty Samsung A5 2017
-
+%define android_version_major 10
 # Community HW adaptations need this
 %define community_adaptation 1
 
