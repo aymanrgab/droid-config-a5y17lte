@@ -22,13 +22,15 @@ Requires: libhybris-libwayland-egl
 # Telephony
 Requires: ofono-ril-binder-plugin
 Requires: dummy_netd
+Requires: modem_auto_config
 
 # Bluetooth
 Requires: bluebinder
+Requires: bluez5-tools
 
 # enable fingerprint reader
-#Requires: sailfish-fpd-community
-#Requires: sailfish-devicelock-fpd
+Requires: sailfish-fpd-community
+Requires: sailfish-devicelock-fpd
 
 # Sensors
 Requires: hybris-libsensorfw-qt5
@@ -91,7 +93,7 @@ Requires: yamuisplash
 # 1. binder plugin requires Android 8 or a newer base
 # 2. pn54x plugin talks directly to pn54x driver
 # These plugins are mutually exclusive, you need to pick one:
-#Requires: nfcd-binder-plugin
+Requires: nfcd-binder-plugin
 #Requires: nfcd-pn54x-plugin
 
 %description -n patterns-sailfish-device-adaptation-a5y17lte

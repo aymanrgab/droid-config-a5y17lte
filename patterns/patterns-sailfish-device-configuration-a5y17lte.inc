@@ -11,6 +11,15 @@ Requires: patterns-sailfish-cellular-apps
 
 # Early stages of porting benefit from these:
 Requires: patterns-sailfish-device-tools
+Requires: jolla-developer-mode
+Requires: sailfishsilica-qt5-demos
+Requires: busybox-static
+Requires: net-tools
+Requires: openssh-clients
+Requires: openssh-server
+Requires: vim-enhanced
+Requires: zypper
+Requires: strace
 
 Requires: sailfish-content-graphics-z%{icon_res}
 
@@ -18,9 +27,9 @@ Requires: sailfish-content-graphics-z%{icon_res}
 Requires: jolla-settings-networking-multisim
 
 # For devices which support NFC
-#Requires: jolla-settings-system-nfc
-#Requires: nfcd-dbuslog-plugin
-#Requires: nfcd-mce-plugin
+Requires: jolla-settings-system-nfc
+Requires: nfcd-dbuslog-plugin
+Requires: nfcd-mce-plugin
 
 # Introduced starting Sailfish OS 2.0.4.x:
 # 3rd party accounts like Twitter, VK, cloud services, etc
@@ -36,6 +45,25 @@ Requires: geoclue-provider-mlsdb
 # Devices with 2G or more memory should also include this booster
 # to improve camera startup times and the like
 Requires: mapplauncherd-booster-silica-qt5-media
+
+# Sailfish OS CSD tool for hardware testing
+Requires: csd
+
+# KMod required for kmod-static-nodes.service 
+Requires: kmod
+
+# Add pre-installed some jolla/sailfish apps
+Requires: sailfish-office
+Requires: jolla-calculator
+Requires: jolla-email
+Requires: jolla-notes
+Requires: jolla-clock
+Requires: jolla-mediaplayer
+Requires: jolla-calendar
+Requires: sailfish-weather
+Requires: sailfish-utilities
+Requires: sailfish-audiorecorder
+Requires: jolla-settings-networking-plugin-vpn-openfortivpn
 
 %description -n patterns-sailfish-device-configuration-a5y17lte
 Pattern with packages for a5y17lte configurations
