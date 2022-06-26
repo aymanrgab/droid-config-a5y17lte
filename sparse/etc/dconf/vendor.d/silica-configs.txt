@@ -1,6 +1,6 @@
 [desktop/sailfish/silica]
-theme_pixel_ratio=1.0
-theme_icon_subdir='z1.0-medium'
+theme_pixel_ratio=1.25
+theme_icon_subdir='z1.25'
 font_size_tiny=16
 font_size_extra_small=18
 font_size_small=22
