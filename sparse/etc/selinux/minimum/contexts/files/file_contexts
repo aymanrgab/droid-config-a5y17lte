@@ -1340,10 +1340,4 @@
 /sys/firmware/devicetree/base/soc/i2c@a8c000/touchscreen@48/sync-reportrate-120		u:object_r:sysfs_sec_touchscreen:s0
 /sys/devices/platform/soc/890000\.i2c/i2c-0/0-0066/max77705-usbc/typec/port0/power_role		u:object_r:sysfs_ss_writable:s0
 /sys/devices/platform/14360000\.hsi2c/i2c-15/15-0066/max77705-usbc/dual_role_usb/otg_default/data_role		u:object_r:sysfs_usb:s0
-*                       u:object_r:default_android_vndservice:s0
-WlanDutService                              u:object_r:wlandutservice_vndservice:s0
-android.samsung.IRemosaicDaemon             u:object_r:remosaicd_vndservice:s0
-android.IRemosaicDaemon                     u:object_r:remosaicd_vndservice:s0
-SccHalAudioContext             u:object_r:SccHalAudio_service:s0
-SccHalSoundTriggerContext             u:object_r:SccHalAudio_service:s0
-Exynos.HWCService     u:object_r:vendor_surfaceflinger_vndservice:s0
+

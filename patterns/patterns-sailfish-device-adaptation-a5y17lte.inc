@@ -22,15 +22,14 @@ Requires: libhybris-libwayland-egl
 # Telephony
 Requires: ofono-ril-binder-plugin
 Requires: dummy_netd
-Requires: modem_auto_config
 
 # Bluetooth
 Requires: bluebinder
-Requires: bluez5-tools
 
 # enable fingerprint reader
 Requires: sailfish-fpd-community
 Requires: sailfish-devicelock-fpd
+Requires: droid-biometry-fp
 
 # Sensors
 Requires: hybris-libsensorfw-qt5
@@ -42,7 +41,6 @@ Requires: libngf-qt5-qtfeedback
 # Needed for /dev/touchscreen symlink
 Requires: qt5-plugin-generic-evdev
 
-Requires: pulseaudio-modules-droid
 Requires: pulseaudio-modules-droid-jb2q
 Requires: pulseaudio-modules-droid-hidl
 
@@ -61,11 +59,10 @@ Requires: qtscenegraph-adaptation
 
 # For hybris devices with droidmedia, see HADK pdf for more information
 Requires: gstreamer1.0-droid
-Requires: gstreamer1.0-droid-tools
 Requires: gmp-droid
 
 # This is needed for notification LEDs
-Requires: mce-plugin-libhybris
+#Requires: mce-plugin-libhybris
 
 # USB mode controller
 Requires: usb-moded
@@ -83,8 +80,8 @@ Requires: jolla-devicelock-daemon-encsfa
 Requires: geoclue-provider-hybris
 
 # For FM radio on some QCOM devices
-#Requires: qt5-qtmultimedia-plugin-mediaservice-irisradio
-#Requires: jolla-mediaplayer-radio
+Requires: qt5-qtmultimedia-plugin-mediaservice-irisradio
+Requires: jolla-mediaplayer-radio
 
 # Splash screen
 Requires: yamuisplash

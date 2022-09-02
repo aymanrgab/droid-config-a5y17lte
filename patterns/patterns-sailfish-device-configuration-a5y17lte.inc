@@ -11,15 +11,6 @@ Requires: patterns-sailfish-cellular-apps
 
 # Early stages of porting benefit from these:
 Requires: patterns-sailfish-device-tools
-Requires: jolla-developer-mode
-Requires: sailfishsilica-qt5-demos
-Requires: busybox-static
-Requires: net-tools
-Requires: openssh-clients
-Requires: openssh-server
-Requires: vim-enhanced
-Requires: zypper
-Requires: strace
 
 Requires: sailfish-content-graphics-z%{icon_res}
 
@@ -49,8 +40,6 @@ Requires: mapplauncherd-booster-silica-qt5-media
 # Sailfish OS CSD tool for hardware testing
 Requires: csd
 
-# KMod required for kmod-static-nodes.service 
-Requires: kmod
 
 # Add pre-installed some jolla/sailfish apps
 Requires: sailfish-office
