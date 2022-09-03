@@ -5,7 +5,7 @@
 %define android_version_major 10
 %define community_adaptation 1
 %define have_modem 1
-%define pixel_ratio 1.25
+%define pixel_ratio 1.5
 
 Provides: ofono-configs
 Obsoletes: ofono-configs-mer

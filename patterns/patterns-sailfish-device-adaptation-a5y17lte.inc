@@ -28,7 +28,7 @@ Requires: bluebinder
 
 # enable fingerprint reader
 Requires: sailfish-fpd-community
-Requires: sailfish-devicelock-fpd
+#Requires: sailfish-devicelock-fpd
 Requires: droid-biometry-fp
 
 # Sensors
@@ -57,12 +57,18 @@ Requires: qt5-qtwayland-wayland_egl
 Requires: qt5-qpa-hwcomposer-plugin
 Requires: qtscenegraph-adaptation
 
+# Add GStreamer v1.0 as standard
+Requires: gstreamer1.0
+Requires: gstreamer1.0-plugins-good
+Requires: gstreamer1.0-plugins-base
+Requires: gstreamer1.0-plugins-bad
+Requires: nemo-gstreamer1.0-interfaces
 # For hybris devices with droidmedia, see HADK pdf for more information
 Requires: gstreamer1.0-droid
 Requires: gmp-droid
 
 # This is needed for notification LEDs
-#Requires: mce-plugin-libhybris
+Requires: mce-plugin-libhybris
 
 # USB mode controller
 Requires: usb-moded
