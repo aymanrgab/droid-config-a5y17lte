@@ -24,12 +24,12 @@ Requires: ofono-ril-binder-plugin
 Requires: dummy_netd
 
 # Bluetooth
+Requires: bluez5-tools
 Requires: bluebinder
 
 # enable fingerprint reader
 Requires: sailfish-fpd-community
-#Requires: sailfish-devicelock-fpd
-Requires: droid-biometry-fp
+Requires: sailfish-devicelock-fpd
 
 # Sensors
 Requires: hybris-libsensorfw-qt5
@@ -57,13 +57,12 @@ Requires: qt5-qtwayland-wayland_egl
 Requires: qt5-qpa-hwcomposer-plugin
 Requires: qtscenegraph-adaptation
 
-# Add GStreamer v1.0 as standard
+# gstreamer
 Requires: gstreamer1.0
 Requires: gstreamer1.0-plugins-good
 Requires: gstreamer1.0-plugins-base
 Requires: gstreamer1.0-plugins-bad
 Requires: nemo-gstreamer1.0-interfaces
-# For hybris devices with droidmedia, see HADK pdf for more information
 Requires: gstreamer1.0-droid
 Requires: gmp-droid
 
@@ -77,7 +76,7 @@ Requires: usb-moded
 Requires: rfkill
 
 # enable device lock and allow to select untrusted software
-Requires: jolla-devicelock-daemon-encsfa
+# Requires: jolla-devicelock-daemon-encsfa
 
 # Enable home encryption
 #Requires: sailfish-device-encryption
@@ -86,8 +85,8 @@ Requires: jolla-devicelock-daemon-encsfa
 Requires: geoclue-provider-hybris
 
 # For FM radio on some QCOM devices
-Requires: qt5-qtmultimedia-plugin-mediaservice-irisradio
-Requires: jolla-mediaplayer-radio
+#Requires: qt5-qtmultimedia-plugin-mediaservice-irisradio
+#Requires: jolla-mediaplayer-radio
 
 # Splash screen
 Requires: yamuisplash
